@@ -1,0 +1,34 @@
+/*
+ * TODO Your Comment Header Here
+ */
+
+/*
+ * your standard (i.e. mobile) css here
+ */
+
+.example{
+    /* This is an example css class. You can delete it. This will make text
+     * red and centered on mobile. Notice the color but not the alignment
+     * is overridden on the desktop size below.
+     */
+    text-align: center;
+    color: red;
+}
+
+
+
+@media (min-width: 480px) {
+    /*
+     * your desktop css here
+     */
+
+    .example{
+        /* This is an example css overriden class. You can delete it. This will
+         * override the css of the above example class when the screen is
+         * above 480px. Notice only the color is overriden, the alignment will
+         * stay the same on all devices. This shows that you can override
+         * part or all of class in this fashion.
+         */
+        color: blue;
+    }
+}
