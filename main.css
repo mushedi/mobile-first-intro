@@ -1,34 +1,65 @@
 /*
- * TODO Your Comment Header Here
+ Name: Isabella Lanas
+ Coding 02
+ Purpose: Mobile-First front-end practice
  */
 
 /*
  * your standard (i.e. mobile) css here
  */
-
-.example{
-    /* This is an example css class. You can delete it. This will make text
-     * red and centered on mobile. Notice the color but not the alignment
-     * is overridden on the desktop size below.
-     */
-    text-align: center;
-    color: red;
+body {
+    margin: 0;
+    padding: 0;
+    font: san-serif;
+    font-size: 20px;
+    background: #810689;
+    color: white;
+}
+.navContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    background: #2708C4;
+    border-bottom-style: solid;
+    border-color: #FFFFFF;
+}
+li {
+    display: inline-block;
+}
+li a {
+    padding: 0 3rem;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+li a:hover {
+    font-size: 20px;
+    font-weight: bold;
+    color: #B5AFAF;
+}
+.image {
+    width: 100%;
+}
+.box-2 {
+    padding: .5rem 2rem;
+}
+img {
+    width: 100%;
 }
 
-
+p a {
+    text-decoration: none;
+    color: #0BC13A;
+    font-size: 25px;
+    font-weight: bold;
+}
+p a:hover {
+    font-size: 27px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+}
 
 @media (min-width: 480px) {
-    /*
-     * your desktop css here
-     */
-
-    .example{
-        /* This is an example css overriden class. You can delete it. This will
-         * override the css of the above example class when the screen is
-         * above 480px. Notice only the color is overriden, the alignment will
-         * stay the same on all devices. This shows that you can override
-         * part or all of class in this fashion.
-         */
-        color: blue;
-    }
+    
 }
