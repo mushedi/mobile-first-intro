@@ -61,5 +61,8 @@ p a:hover {
 }
 
 @media (min-width: 480px) {
+p {
+  color: red;
+}
     
 }
