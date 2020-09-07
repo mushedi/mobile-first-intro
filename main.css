@@ -28,14 +28,14 @@ li {
     display: inline-block;
 }
 li a {
-    padding: 0 1.5rem;
+    padding: 0 1rem;
     text-decoration: none;
     color: #FFFFFF;
     font-size: 1.3rem;
 }
 li a:hover {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 600;
     color: #B5AFAF;
 }
 
