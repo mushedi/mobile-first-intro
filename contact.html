@@ -1,16 +1,59 @@
 <!DOCTYPE html>
 <!--
-TODO Your Comment Header Here
+Azul Lanas
+Coding 02
+Purpose: Mobile-first front-end practice
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Contact</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- TODO link your css file here -->
+        <link rel="stylesheet" href="main.css">
         <link rel="icon" href="favicon.gif" type="image/gif">
     </head>
     <body>
-        TODO your content here
+        <nav class="nav-container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <form>
+            <h1>Contact Form</h1>
+            <div class="contact-container">
+                <div class="topForm">
+                    <div class="section1">
+                        <div class="contactForm">
+                            <input type="text" placeholder="   Full Name">
+                        </div>
+                        <div class="contactForm">
+                            <input type="email" placeholder="   Email">
+                        </div>
+                        <div class="contactForm">
+                            <input type="email" placeholder="    Re-Enter Email">
+                        </div>
+                        <div class="contactForm"> 
+                            <input type="text" placeholder="    Subject">
+                        </div>
+                    </div>
+                    <div class="section2">
+                        <div class="contactForm">
+                            <textarea placeholder="  Message" cols="20" rows="10"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottomForm">
+                    <div class="contactForm">
+                        <div class="center">
+                            <button class ="clear" type="reset">Clear</button>
+                            <button class="send" type="submit">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </form>
+     
     </body>
 </html>
