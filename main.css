@@ -85,14 +85,14 @@ textarea{
     padding: .5em;
     border-radius: 1rem;
 }
-.center {
+.bottomForm {
     display: flex;
     flex-flow: column nowrap;
 }
 
 button {
     min-width: 50%;
-    margin: auto;
+    margin-left: 20%;
     margin-bottom: 1rem;;
     padding: .8rem;
     border-radius: 1rem;
@@ -136,7 +136,7 @@ li a {
 textarea{
     margin-top: 1.5em;
 }
-.center {
+.bottomForm {
     display: flex;
     flex-flow: row nowrap;
 }
